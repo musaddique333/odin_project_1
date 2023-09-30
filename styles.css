@@ -1,0 +1,232 @@
+html * {
+    font-family: Arimo Nerd, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    height: 400px;
+    background-color: #1F2937;
+    padding: 0 12% 7% 12%;
+}
+
+.first1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first1 div h3{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header_link{
+    display: flex;
+    gap: 30px;
+}
+
+.header_link p{
+    color: rgb(180, 183, 189);
+    font-size: 18px;
+}
+
+.first2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    min-width: 0;
+}
+
+.first2_text{
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    min-width: 0;
+}
+
+.first2 .first2_text h1{
+    color: #F9FAF8;
+    font-size: 44px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.first2 .first2_text p{
+    color: rgb(180, 183, 189);
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0 10px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.first2 .first2_text button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.first2 .first2_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 116, 124);
+    color: #F9FAF8;
+    height: 250px;
+    width: 550px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.two{
+    height: 300px;
+    padding: 2% 12% 7% 12%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 12% 7% 12%;
+    
+}
+.two .two1{
+    display: flex;
+    font-size: 26px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.two .two2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.two .two2 .two22,
+.two2 .two22{
+    display: flex;
+    flex-direction: column;
+}
+
+.two .two2 .two22 .box{
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 10px;
+}
+
+.three{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.three .quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.three .quote_author{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.three .quote_author p{
+    color: #1F2937;
+    margin: 0;
+    padding-left: 550px;
+}
+
+.four{
+    height: 300px;
+    /* border: solid #3882F6 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12% 0 12%;
+}
+
+.four .four1{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.four1 .four11{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bold_text{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.light_text{
+    font-weight: lighter;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.four .four1 .four12 button{
+    background-color: #3882F6;
+    border: solid #F9FAF8 2px;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.five{
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
